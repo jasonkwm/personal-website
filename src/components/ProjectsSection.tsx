@@ -39,19 +39,19 @@ function ProjectsSection({}: Props) {
   return (
     <section id="projects">
       <div className='flex flex-col items-center py-20'>
-        <h2 className='font-semibold text-4xl'>PROJECTS</h2>
+        <h2 className='font-semibold text-3xl lg:text-4xl'>PROJECTS</h2>
         <div className='w-10 h-2 rounded-full bg-amber-400 my-8'></div>
-        <p className='font-large text-xl text-[#555] w-6/12'>Explore a compilation of my personal projects and the things I have learned along the way in the world of programming</p>
+        <p className='text-xl text-[#555] w-10/12 lg:w-6/12'>Explore a compilation of my personal projects and the things I have learned along the way in the world of programming</p>
       </div>
       <div className='project-content w-11/12 m-auto'>
         {
           projects.map( project => (
-            <div className='flex flex-col md:flex-row justify-between m-auto py-10'>
-              <img src={project.image} className="py-10 px-24 w-1/2 h-96 max-w-3xl max-h-96" alt="project images" />
-              <div className='w-1/2 p-10 text-left flex flex-col justify-center items-start'>
-                <h3 className='font-bold text-2xl py-5'>{project.h3}</h3>
-                <p className='py-5 mb-10 text-[#666] text-lg w-9/12'>{project.p}</p>
-                <a className='inline-block px-5 py-3 text-white bg-black transition-all duration-300 rounded-xl hover:-translate-y-1 hover:shadow-lg' href={project.link} target="_blank">Github Repo</a>
+            <div key={project.h3} className='flex flex-col lg:flex-row justify-between m-auto py-10'>
+              <img src={project.image} className=" max-w-3xl max-h-96 lg:py-10 lg:h-96 lg:px-24 lg:w-1/2" alt={project.h3} />
+              <div className='p-10 text-left flex flex-col justify-center items-start lg:w-1/2'>
+                <h3 className='font-bold text-2xl lg:py-5'>{project.h3}</h3>
+                <p className='py-5 text-[#666] text-lg w-10/12 lg:mb-10'>{project.p}</p>
+                <a className='inline-block px-5 py-3 text-white bg-black transition-all duration-300 rounded-xl hover:-translate-y-1 hover:shadow-lg' href={project.link} target="_blank" rel="noreferrer">Github Repo</a>
               </div>
             </div>
           ))
