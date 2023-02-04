@@ -1,8 +1,8 @@
 import React from 'react'
 
 type Props = {}
-let skills=["HTML", "CSS", "SASS", "Tailwind CSS", "JavaScript", "TypeScript", "ReactJS", "D3.js", "Responsive Design", "GIT", "Github",
-            "C Programming", "Terminal", "NodeJS", "Express", "SQL Basics", "Python", "Pandas"];
+let skills=["HTML", "CSS", "SASS", "Tailwind CSS", "JavaScript", "TypeScript", "ReactJS", "D3.js", "Responsive Design",
+            "GIT", "Github", "C Programming", "Terminal", "NodeJS", "Python", "Pandas", "Matplotlib"];
 
 export default function AboutSection({}: Props) {
   return (

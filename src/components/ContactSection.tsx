@@ -1,4 +1,4 @@
-import {useRef} from 'react'
+// import React from 'react'
 
 type Props = {}
 
@@ -6,6 +6,7 @@ function handleSubmit(e: any):void {
   e.preventDefault();
   const data = new FormData(e.target as HTMLFormElement);
   const action = e.target.action;
+  e.target.reset();
   fetch(action, {
     method:"post",
     body: data
