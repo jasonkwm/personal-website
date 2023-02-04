@@ -22,14 +22,14 @@ export default function NavBar({}: Props) {
                     <li className='p-4 button-active transition-all duration-300'><a href='#projects'>PROJECTS</a></li>
                     <li className='p-4 button-active transition-all duration-300'><a href="#contact">CONTACT</a></li>
                 </ul>
-                <div onClick={handleClick} className={`${toggle ? "" : "nav-menu"} md:hidden transition-all duration-300`}>
-                    <div className={`w-8 h-1 rounded-full bg-black mb-2  transition-all duration-300 ${toggle ? "" : "translate-y-[12px] -rotate-45 "}`}></div>
-                    <div className={`w-8 h-1 rounded-full bg-black mb-2  transition-all duration-300 ${toggle ? "" : "opacity-0 "}`}></div>
-                    <div className={`w-8 h-1 rounded-full bg-black  transition-all duration-300 ${toggle ? "" : "translate-y-[-12px] rotate-45 "}`}></div>
+                <div onClick={handleClick} className={`${toggle ? "nav-menu" : ""} md:hidden transition-all duration-300`}>
+                    <div className={`w-8 h-1 rounded-full bg-black mb-2  transition-all duration-300 ${toggle ? "translate-y-[12px] -rotate-45 " : ""}`}></div>
+                    <div className={`w-8 h-1 rounded-full bg-black mb-2  transition-all duration-300 ${toggle ? "opacity-0 " : ""}`}></div>
+                    <div className={`w-8 h-1 rounded-full bg-black  transition-all duration-300 ${toggle ? "translate-y-[-12px] rotate-45 " : ""}`}></div>
                 </div>
             </div>
         </header>
-        <ul className={`bg-white w-full mobile-nav-div fixed md:hidden z-10 flex flex-col justify-end ${toggle ? "hidden" : "block"}`}>
+        <ul className={`bg-white w-full mobile-nav-div fixed md:hidden z-10 flex flex-col justify-end ${toggle ? "block" : "hidden"}`}>
             <li className='py-6 px-8 text-right border-t-[1px] border-b-[1px] border-gray font-semibold text-sm'><a onClick={handleClick} href="#home">HOME</a></li>
             <li className='py-6 px-8 text-right border-b-[1px] border-gray font-semibold text-sm'><a onClick={handleClick} href="#about">ABOUT</a></li>
             <li className='py-6 px-8 text-right border-b-[1px] border-gray font-semibold text-sm'><a onClick={handleClick} href="#projects">PROJECTS</a></li>
