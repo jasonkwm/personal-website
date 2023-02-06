@@ -32,10 +32,10 @@ let socials = [
 
 function HomeSection({}: Props) {
   return (
-    <section id='home' className='home-section h-[70vh] md:h-[90vh] flex flex-col justify-between tracking-wider max-h-[120rem] min-h-[38rem]'>
-        <div className='mt-20'>
+    <section id='home' className='home-section h-[65vh] md:h-[80vh] flex flex-col justify-between tracking-wider max-h-[120rem] min-h-[38rem]'>
+        <div className='mt-36'>
             <h1 className='font-bold text-3xl md:text-6xl'>HEY, I'M JASON KOH</h1>
-            <p className='text-lg w-4/6 mx-auto my-10 md:text-xl md:w-3/6' >A Front-End focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+            <p className='text-lg w-4/6 mx-auto my-10 md:text-xl md:w-3/6' >A programmer with a talent for web development and software engineering</p>
               <a className='inline-block px-16 py-5 bg-black rounded-lg text-white text-sm font-semibold tracking-wider active:animate-expandButton hover:animate-expandButton transition-all duration-300' href="./#projects">PROJECTS</a>
         </div>
         <div className='h-12 w-8 mb-10 mx-auto border-solid border-2 border-black rounded-full relative 
