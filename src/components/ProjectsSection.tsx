@@ -6,37 +6,31 @@ const projects = [
   {
     image: require("../assets/personal_website.png"),
     h3: "Personal Wesite",
-    p: "This is the source code for this website. It is build with React Typescript and styled with Tailwind CSS",
+    p: "Build using React Typescript & Tailwind CSS",
     link: "https://github.com/jasonkwm/personal-website"
-  },
-  {
-    image: require("../assets/crowd-funding-bamboo.jpg"),
-    h3: "Crowdfunding Product Page",
-    p: "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes.",
-    link: "https://github.com/jasonkwm/crowdfunding-product-page-main"
-  },
-  {
-    image: require("../assets/faq-accordion-card-main.jpg"),
-    h3: "Faq Accordion Card",
-    p: "The challenge is to build out this order summary card component and get it looking as close to the design above as possible.",
-    link: "https://github.com/jasonkwm/faq-accordion-card-main"
   },
   {
     image: require("../assets/minishell.gif"),
     h3: "Minishell",
-    p: "This project is about creating a simple shell. Yes, your own little bash. You will learn a lot about processes and file descriptors.",
+    p: "By creating your very own shell. Things to learn in this project includes, tokenizing input, parsing input, forking processes and file descriptors.",
     link: "https://github.com/jasonkwm/minishell"
   },
   {
     image: require("../assets/so_long.gif"),
     h3: "So Long",
-    p: "This project is a very small 2D game. Its purpose is to make you work with textures, sprites, and some other very basic gameplay elements.",
+    p: "Learn all about textures, sprites, and some other very basic gameplay elements by creating a 2D game in C programming language using the MiniLibX library.",
     link: "https://github.com/jasonkwm/so_long"
+  },
+  {
+    image: require("../assets/crowd-funding-bamboo.jpg"),
+    h3: "Crowdfunding Product Page",
+    p: "Practising the basics of front-end by using HTML, SCSS and Javascript this project include building a responsive web design and creating a modal.",
+    link: "https://github.com/jasonkwm/crowdfunding-product-page-main"
   },
   {
     image: require("../assets/philo.png"),
     h3: "Philosophers",
-    p: "In this project, you will learn the basics of threading a process. You will see how to create threads and you will discover mutexes.",
+    p: "Learn the basics of threading a process and managing memory access among threads by using Mutex.",
     link: "https://github.com/jasonkwm/philo42"
   }
 ]
