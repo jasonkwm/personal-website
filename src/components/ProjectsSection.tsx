@@ -40,7 +40,7 @@ function ProjectsSection({}: Props) {
     <section id="projects">
       <div className='flex flex-col items-center py-20'>
         <h2 className='font-semibold text-3xl lg:text-4xl'>PROJECTS</h2>
-        <div className='w-10 h-2 rounded-full bg-gray-400 my-8'></div>
+        <div className='w-14 h-2 rounded-full bg-gray-400 my-8'></div>
         <p className='text-xl text-[#555] w-10/12 lg:w-6/12'>Explore a compilation of my personal projects and the things I have learned along the way in the world of programming</p>
       </div>
       <div className='project-content w-11/12 m-auto'>

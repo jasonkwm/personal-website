@@ -9,7 +9,7 @@ export default function AboutSection({}: Props) {
     <section id='about' className='bg-[#fafafa] py-20'>
         <div className='flex flex-col items-center mb-10'>
             <h2 className='font-semibold text-3xl lg:text-4xl'>ABOUT ME</h2>
-            <div className='w-10 h-2 rounded-full bg-gray-400 my-8'></div>
+            <div className='w-14 h-2 rounded-full bg-gray-400 my-8'></div>
             {/* <p className='font-large text-lg lg:text-xl text-[#555] w-10/12 lg:w-6/12'>Discover an in-depth look at my expertise, and current competencies, within the world of programming and technology</p> */}
         </div>
         <div className='px-10 lg:flex lg:px-20'>
