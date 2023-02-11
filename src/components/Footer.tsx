@@ -35,7 +35,7 @@ function Footer({}: Props) {
     <footer className='bg-black text-white flex flex-col-reverse lg:flex-row justify-between py-10 lg:py-20 px-5 lg:px-36'>
         <div className='flex flex-col items-start mt-12 lg:mt-0'>
             <h2 className='font-semibold text-lg tracking-wider mb-2 lg:mb-5'>JASON KOH</h2>
-            <p className='text-sm w-10/12 lg:w-2/3 text-left'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+            <p className='text-sm w-10/12 lg:w-2/3 text-left'>A programmer with a talent for web development and software engineering</p>
         </div>
         <div className='flex flex-col items-start'>
             <h3 className='font-semibold text-lg tracking-wider mb-2 lg:mb-5'>SOCIAL</h3>
