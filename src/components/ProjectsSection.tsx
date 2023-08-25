@@ -5,7 +5,7 @@ type Props = {}
 const projects = [
   {
     image: require("../assets/personal_website.png"),
-    h3: "Personal Wesite",
+    h3: "Personal Website",
     p: "Build using React Typescript & Tailwind CSS",
     link: "https://github.com/jasonkwm/personal-website"
   },
