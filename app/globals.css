@@ -16,14 +16,40 @@
     }
 }
 
-body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+html {
     scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @layer utilities {
     .text-balance {
         text-wrap: balance;
     }
+}
+
+.home-section {
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),
+        url(/public/background.svg);
+}
+
+#projects,
+#about,
+#contact,
+#achievements,
+#home {
+    scroll-margin: 4rem;
+}
+
+.button-active:active {
+    transition: all 300ms;
+    transform: translateY(4px);
+}
+.project-hover:hover {
+    transform: translateY(-4px);
 }
