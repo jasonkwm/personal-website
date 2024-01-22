@@ -39,13 +39,13 @@ const HeroSection = () => {
             <div>
                 <a
                     className="inline-block px-12 py-5 mx-4 my-2 bg-black rounded-lg text-white text-sm font-semibold tracking-wider active:animate-expandButton hover:animate-expandButton transition-all duration-300"
-                    href="./#projects"
+                    href="#achievements"
                 >
                     ACHIEVEMENTS
                 </a>
                 <a
                     className="inline-block px-16 py-5 mx-4 my-2 bg-black rounded-lg text-white text-sm font-semibold tracking-wider active:animate-expandButton hover:animate-expandButton transition-all duration-300"
-                    href="./#projects"
+                    href="#projects"
                 >
                     PROJECTS
                 </a>
