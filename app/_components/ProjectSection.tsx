@@ -46,12 +46,12 @@ const ProjectSection = () => {
 			<SectionHeading
 				heading="PROJECTS"
 				divider={true}
-				description="Explore a compilation of my personal projects and the things I have learnedalong the way in the world of programming."
+				description="Discover my programming journey through various projects and lessons learned along the way."
 			/>
 			<section>
 				{projects.map((project) => (
 					<article
-						className="flex flex-col lg:flex-row justify-between mb-12  border-b-2 "
+						className="flex flex-col lg:flex-row justify-between border-b-2 pb-10"
 						key={project.title}
 					>
 						<Image
