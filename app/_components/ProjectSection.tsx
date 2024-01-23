@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const projects = [
 	{
 		image: '/projects/42-on-campus-stats.png',
@@ -55,10 +55,12 @@ const ProjectSection = () => {
 						className="flex flex-col lg:flex-row justify-between mb-12  border-b-2 "
 						key={project.title}
 					>
-						<img
+						<Image
 							src={project.image}
-							className="max-w-3xl max-h-96 lg:py-10 lg:h-96 px-4 lg:px-24 lg:w-1/2 object-contain"
+							width={684}
+							height={384}
 							alt={`A example image of ${project.title}`}
+							className="max-w-3xl max-h-96 lg:py-10 lg:h-96 lg:w-1/2 w-[100%] px-4 lg:px-24 object-contain"
 						/>
 						<div className="p-10 text-left flex flex-col justify-center items-start lg:w-1/2">
 							<h3 className="font-bold text-2xl lg:py-5">{project.title}</h3>
