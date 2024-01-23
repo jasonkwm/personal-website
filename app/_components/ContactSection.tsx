@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import SectionHeading from './SectionHeading';
 
 const ContactSection = () => {
 	function handleSubmit(e: any): void {
@@ -17,14 +18,11 @@ const ContactSection = () => {
 	}
 	return (
 		<section id="contact" className="pb-10">
-			<div className="flex flex-col items-center py-14 md:py-20">
-				<h2 className="font-semibold text-3xl md:text-4xl">CONTACT</h2>
-				<div className="w-14 h-2 rounded-full bg-gray-500 my-8"></div>
-				<p className="font-large text-xl text-[#555] w-10/12 md:w-6/12">
-					Feel free to Contact me by submitting the form below and I will get back to you
-					as soon as possible
-				</p>
-			</div>
+			<SectionHeading
+				heading="CONTACT"
+				divider={true}
+				description="Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+			/>
 			<form
 				className="max-w-3xl w-11/12 md:w-10/12 mx-auto p-6 md:px-10 bg-white rounded-md shadow-2xl"
 				onSubmit={handleSubmit}

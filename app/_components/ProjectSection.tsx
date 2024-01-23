@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import SectionHeading from './SectionHeading';
+
 const projects = [
 	{
 		image: '/projects/42-on-campus-stats.png',
@@ -41,14 +43,11 @@ const projects = [
 const ProjectSection = () => {
 	return (
 		<section id="projects">
-			<div className="flex flex-col items-center py-20 text-center">
-				<h2 className="font-semibold text-3xl lg:text-4xl">PROJECTS</h2>
-				<div className="w-14 h-2 rounded-full bg-gray-500 my-8"></div>
-				<p className="text-xl text-[#555] w-10/12 lg:w-6/12">
-					Explore a compilation of my personal projects and the things I have learned
-					along the way in the world of programming.
-				</p>
-			</div>
+			<SectionHeading
+				heading="PROJECTS"
+				divider={true}
+				description="Explore a compilation of my personal projects and the things I have learnedalong the way in the world of programming."
+			/>
 			<section>
 				{projects.map((project) => (
 					<article
