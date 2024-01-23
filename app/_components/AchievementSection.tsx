@@ -5,7 +5,7 @@ const AchievementSection = () => {
 		<SectionHeading
 			heading="ACHIEVEMENTS"
 			divider={true}
-			description="Explore my hackathon journey, highlighting achievements and the valuable experiences gained in each collaborative coding challenge."
+			description="Browse through my hackathon journey, where each achievement reflects not just wins but the invaluable lessons learned in the heat of coding challenges."
 		/>
 	);
 };
