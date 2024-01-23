@@ -16,7 +16,7 @@ const ContactSection = () => {
 		});
 	}
 	return (
-		<section id="contact pb-10">
+		<section id="contact" className="pb-10">
 			<div className="flex flex-col items-center py-14 md:py-20">
 				<h2 className="font-semibold text-3xl md:text-4xl">CONTACT</h2>
 				<div className="w-14 h-2 rounded-full bg-gray-500 my-8"></div>
