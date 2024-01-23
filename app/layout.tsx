@@ -13,6 +13,9 @@ export const metadata: Metadata = {
 	icons: {
 		icon: '/circle-icon.png',
 	},
+	other: {
+		'google-site-verification': 'OOC49ULXwhTfA3X1Y90xuJ9IwekJAsbyTZYlPnJRJRE',
+	},
 };
 
 export default function RootLayout({
