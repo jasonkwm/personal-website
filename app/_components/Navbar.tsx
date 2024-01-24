@@ -24,9 +24,6 @@ const Navbar = () => {
 				</a>
 				<div>
 					<nav className="hidden md:flex md:justify-around items-center">
-						<a href="#about" className={LinkStyles}>
-							ABOUT
-						</a>
 						<a href="#achievements" className={LinkStyles}>
 							ACHIEVEMENTS
 						</a>
