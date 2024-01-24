@@ -67,7 +67,7 @@ const ProjectSection = () => {
 								{project.description}
 							</p>
 							<a
-								className="inline-block text-sm lg:text-base px-5 py-3 text-white bg-black transition-all duration-300 rounded-xl hover:translate-y-1 hover:shadow-lg"
+								className="inline-block text-sm lg:text-base px-5 py-3 text-white bg-black rounded-xl hover:scaleHover scaleHoverT"
 								href={project.link}
 								target="_blank"
 								rel="noreferrer"

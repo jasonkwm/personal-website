@@ -96,7 +96,7 @@ type AchievementItemProps = {
 
 const AchievementItem = ({ item }: AchievementItemProps) => {
 	const buttonStyle =
-		'text-sm lg:text-base text-center px-5 py-3 text-white bg-black transition-all duration-300 rounded-xl hover:translate-y-1 hover:shadow-lg';
+		'text-sm lg:text-base text-center px-5 py-3 text-white bg-black rounded-xl hover:scaleHover scaleHoverT';
 	return (
 		<article className="flex grow flex-col max-w-md rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ">
 			<Image

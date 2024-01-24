@@ -33,6 +33,17 @@ body {
 	}
 }
 
+@layer components {
+	.scaleHover {
+		transform: scale(0.97);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+			var(--tw-shadow);
+	}
+	.scaleHoverT {
+		transition: transform 300ms ease-in-out;
+	}
+}
+
 #home,
 #contact {
 	background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),
