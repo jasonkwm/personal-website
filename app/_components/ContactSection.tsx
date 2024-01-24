@@ -21,7 +21,7 @@ const ContactSection = () => {
 			<SectionHeading
 				heading="CONTACT"
 				divider={true}
-				description="Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+				description="Feel free to contact me by submitting the form below and I will get back to you as soon as possible"
 			/>
 			<form
 				className="max-w-3xl w-11/12 md:w-10/12 mx-auto p-6 md:px-10 bg-white rounded-md shadow-2xl"
