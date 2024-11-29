@@ -34,6 +34,26 @@ const imgObj: ImageType = {
 
 const achievements: ItemType[] = [
 	{
+		id: 0xa4,
+		heading: 'Bangkok Bitcoin Hackathon',
+		description:
+			"Build a application within 24Hours while using BOB(BuildOnBitcoin)? How about similar to AWS Auto Scaling but for cafe's & part-time workers.",
+		pageLink: 'https://x.com/encodeclub/status/1856310925969813819',
+		projectLink: 'https://github.com/jasonkwm/wowhire-btc',
+		image: {
+			path: '/achievements/bangkok-bitcoin-hackathon/bangkok-bitcoin-team.jpeg',
+			width: 805.2,
+			height: 603.9,
+			alt: 'medal of KLSCM and ETHKL24 pass',
+			fill: false,
+		},
+		rewards: [
+			{ path: '/rewards/silver-medal-flaticon.png', title: 'Second Place' },
+			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $3000 USD' },
+			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
+		],
+	},
+	{
 		id: 0xa3,
 		heading: 'Ethereum Kuala Lumpur 2024',
 		description: '42Hour Hackathon + 42KM Marathon? Sign me up!',
@@ -41,7 +61,7 @@ const achievements: ItemType[] = [
 			'https://www.linkedin.com/posts/jasonkwm_klscm-ethkl-42kl-activity-7248973321864634368-5Uma/?utm_source=share&utm_medium=member_desktop',
 		projectLink: 'https://devfolio.co/projects/crypto-survey-fa45',
 		image: {
-			path: '/achievements/ethkl24/medals.jpg',
+			path: '/achievements/ethkl24/medals.jpeg',
 			width: 805.2,
 			height: 603.9,
 			alt: 'medal of KLSCM and ETHKL24 pass',
@@ -127,7 +147,7 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 				width={item.image.width}
 				height={item.image.height}
 				alt={item.image.alt}
-				className={`rounded-t-lg object-cover max-h-[340px]`}
+				className={`rounded-t-lg object-cover max-h-[340px] min-h-[340px]`}
 				priority
 			/>
 			<div className="py-12 px-6 flex flex-col gap-4 h-full justify-between">
@@ -135,7 +155,7 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 					<h2 className="font-bold text-2xl">{item.heading}</h2>
 					<p className="text-[#666] lg:text-lg w-11/12">{item.description}</p>
 				</div>
-				<div className="flex flex-col gap-3 w-11/12 lg:w-10/12">
+				<div className="flex flex-col gap-3 w-11/12 lg:w-10/12 mt-3">
 					<div className="flex items-center gap-3">
 						<h3 className="font-bold">Rewards:</h3>
 						{item.rewards.map((reward, index) => (
