@@ -185,8 +185,8 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 					<h2 className="font-bold text-2xl">{item.heading}</h2>
 					<p className="text-[#666] lg:text-lg w-11/12">{item.description}</p>
 				</div>
-				<div className="flex flex-col gap-3 w-11/12 lg:w-10/12 mt-3">
-					<div className="flex items-center gap-3">
+				<div className="flex flex-col gap-3">
+					<div className="flex gap-3">
 						<h3 className="font-bold">Rewards:</h3>
 						{item.rewards.map((reward, index) => (
 							<Image
@@ -199,22 +199,24 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 							/>
 						))}
 					</div>
-					<a
-						href={item.pageLink}
-						className={`${buttonStyle}`}
-						target="_blank"
-						rel="noreferrer"
-					>
-						Read more
-					</a>{' '}
-					<a
-						href={item.projectLink}
-						className={`${buttonStyle}`}
-						target="_blank"
-						rel="noreferrer"
-					>
-						Checkout Project
-					</a>
+					<div className="flex flex-col w-10/12 mx-auto mt-3 gap-2">
+						<a
+							href={item.pageLink}
+							className={`${buttonStyle}`}
+							target="_blank"
+							rel="noreferrer"
+						>
+							Read more
+						</a>{' '}
+						<a
+							href={item.projectLink}
+							className={`${buttonStyle}`}
+							target="_blank"
+							rel="noreferrer"
+						>
+							Checkout Project
+						</a>
+					</div>
 				</div>
 			</div>
 		</article>
