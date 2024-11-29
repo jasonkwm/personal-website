@@ -34,21 +34,48 @@ const imgObj: ImageType = {
 
 const achievements: ItemType[] = [
 	{
+		id: 0xa5,
+		heading: 'ETHGlobal Bangkok',
+		description:
+			'Built a web app that helps farmers get funded and help investors gain confidence in funding the farmers all within 36 hours and a good dose of food poisoning.',
+		pageLink: 'https://ethglobal.com/showcase/crop-cash-hu32s',
+		projectLink: 'https://github.com/jasonkwm/crop-cash',
+		image: {
+			path: '/achievements/ethglobal-bangkok/ethglobal-bananabaht.jpg',
+			width: 805.2,
+			height: 603.9,
+			alt: 'Team BananaBaht, Consist of me, howzheng, bunyod and brian in cool glasses.',
+			fill: false,
+		},
+		rewards: [
+			{ path: '/rewards/gold-medal-freepik.png', title: 'Grand Prize for Web3Auth Bounty' },
+			{
+				path: '/rewards/star-flaticon.png',
+				title: '4th Place for Flow Foundation Bounty',
+			},
+			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $2500 USD' },
+			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
+		],
+	},
+	{
 		id: 0xa4,
 		heading: 'Bangkok Bitcoin Hackathon',
 		description:
-			"Build a application within 24Hours while using BOB(BuildOnBitcoin)? How about similar to AWS Auto Scaling but for cafe's & part-time workers.",
+			"Build a application within 24Hours while using BOB(BuildOnBitcoin)? How about something similar to AWS Auto Scaling but for cafe's & part-time workers.",
 		pageLink: 'https://x.com/encodeclub/status/1856310925969813819',
 		projectLink: 'https://github.com/jasonkwm/wowhire-btc',
 		image: {
 			path: '/achievements/bangkok-bitcoin-hackathon/bangkok-bitcoin-team.jpeg',
 			width: 805.2,
 			height: 603.9,
-			alt: 'medal of KLSCM and ETHKL24 pass',
+			alt: 'Image of me with bunyod, brian, zer and how zheng as a team on a small coffee table hacking it out.',
 			fill: false,
 		},
 		rewards: [
-			{ path: '/rewards/silver-medal-flaticon.png', title: 'Second Place' },
+			{
+				path: '/rewards/silver-medal-flaticon.png',
+				title: 'Second Place for Build On Bitcoin Bounty',
+			},
 			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $3000 USD' },
 			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
 		],
@@ -64,12 +91,15 @@ const achievements: ItemType[] = [
 			path: '/achievements/ethkl24/medals.jpeg',
 			width: 805.2,
 			height: 603.9,
-			alt: 'medal of KLSCM and ETHKL24 pass',
+			alt: 'Medal of KLSCM and ETHKL24 pass',
 			fill: false,
 		},
 		rewards: [
-			{ path: '/rewards/gold-medal-freepik.png', title: 'First Place' },
-			{ path: '/rewards/running-flaticon.png', title: 'Full Marathon Finisher!' },
+			{ path: '/rewards/gold-medal-freepik.png', title: 'Grand Place in The Graph Bounty' },
+			{
+				path: '/rewards/running-flaticon.png',
+				title: '42.195KM - Kuala Lumpur Standard Chartered Marathon Finisher!',
+			},
 			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $800 USD' },
 			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
 		],
@@ -89,7 +119,7 @@ const achievements: ItemType[] = [
 			alt: 'a simple dialog between gold knight and granny in lost knight game',
 		},
 		rewards: [
-			{ path: '/rewards/gold-medal-freepik.png', title: 'First Place' },
+			{ path: '/rewards/gold-medal-freepik.png', title: '1st Place' },
 			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
 		],
 	},
@@ -108,8 +138,8 @@ const achievements: ItemType[] = [
 			alt: 'bunyod, jason, how zheng, and alvin pitching about our zakkarat project to the aleo team',
 		},
 		rewards: [
-			{ path: '/rewards/gold-medal-freepik.png', title: 'First Place' },
-			{ path: '/rewards/grant-freepik.png', title: 'Grants Offering' },
+			{ path: '/rewards/gold-medal-freepik.png', title: '1st Place in Aleo Bounty' },
+			{ path: '/rewards/grant-freepik.png', title: 'Builders Grant Offering' },
 			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $3000 USD' },
 			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
 		],
