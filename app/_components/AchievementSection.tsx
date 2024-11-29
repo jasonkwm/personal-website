@@ -188,15 +188,20 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 				<div className="flex flex-col gap-3">
 					<div className="flex gap-3">
 						<h3 className="font-bold">Rewards:</h3>
+
 						{item.rewards.map((reward, index) => (
-							<Image
-								key={index}
-								src={reward.path}
-								width={46}
-								height={46}
-								alt={reward.title}
-								title={reward.title}
-							/>
+							<div key={index} className="relative cursor-pointer group">
+								<span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-[160px] text-center before:absolute before:content-[''] before:top-full before:left-1/2 before:-translate-x-1/2 before:border-8 before:border-transparent before:border-t-gray-700">
+									{reward.title}
+								</span>
+								<Image
+									src={reward.path}
+									width={46}
+									height={46}
+									alt={reward.title}
+									title={reward.title}
+								/>
+							</div>
 						))}
 					</div>
 					<div className="flex flex-col w-10/12 mx-auto mt-3 gap-2">
