@@ -41,7 +41,7 @@ const achievements: ItemType[] = [
 		pageLink: 'https://ethglobal.com/showcase/crop-cash-hu32s',
 		projectLink: 'https://github.com/jasonkwm/crop-cash',
 		image: {
-			path: '/achievements/ethglobal-bangkok/ethglobal-bananabaht.jpg',
+			path: '/achievements/ethglobal-bangkok/bananabaht-team.jpg',
 			width: 805.2,
 			height: 603.9,
 			alt: 'Team BananaBaht, Consist of me, howzheng, bunyod and brian in cool glasses.',
@@ -74,7 +74,7 @@ const achievements: ItemType[] = [
 		rewards: [
 			{
 				path: '/rewards/silver-medal-flaticon.png',
-				title: 'Second Place for Build On Bitcoin Bounty',
+				title: '2nd Place for Build On Bitcoin Bounty',
 			},
 			{ path: '/rewards/money-rain-flaticon.png', title: 'Won $3000 USD' },
 			{ path: '/rewards/shipment-freepik.png', title: 'Swag/Merch Rewards' },
@@ -191,7 +191,7 @@ const AchievementItem = ({ item }: AchievementItemProps) => {
 
 						{item.rewards.map((reward, index) => (
 							<div key={index} className="relative cursor-pointer group">
-								<span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-[160px] text-center before:absolute before:content-[''] before:top-full before:left-1/2 before:-translate-x-1/2 before:border-8 before:border-transparent before:border-t-gray-700">
+								<span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center before:absolute before:content-[''] before:top-full before:left-1/2 before:-translate-x-1/2 before:border-8 before:border-transparent before:border-t-gray-700 md:whitespace-nowrap">
 									{reward.title}
 								</span>
 								<Image
