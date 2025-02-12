@@ -8,7 +8,7 @@ let socials = [
 		key: 0xaa,
 	},
 	{
-		link: 'https://www.linkedin.com/in/jason-kwm',
+		link: 'https://www.linkedin.com/in/jasonkwm',
 		image: '/social-media/linkedin-white.png',
 		alt: 'LinkedIn icon by Icons8',
 		key: 0xcc,
