@@ -15,7 +15,7 @@ let socials = [
 		id: 0xbb,
 	},
 	{
-		link: 'https://www.t.me/jasonkwm',
+		link: 'https://www.t.me/jakohh',
 		img: '/social-media/telegram.png',
 		alt: 'telegram icons created by Freepik',
 		id: 0xcc,
