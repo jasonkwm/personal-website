@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import SectionHeading from './SectionHeading';
 
 const ContactSection = () => {

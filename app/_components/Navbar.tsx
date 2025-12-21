@@ -1,6 +1,6 @@
 'use client';
+import { useState } from 'react';
 import Image from 'next/image';
-import React, { useState } from 'react';
 
 const Navbar = () => {
 	const LinkStyles = 'p-4 hover:scaleHover scaleHoverT';
